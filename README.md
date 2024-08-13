@@ -4,7 +4,7 @@
 ## Descrição
 
 
-Objetivo: criar um formulário web que recebe uma lista de elementos e cria um conto infantil
+Objetivo: criar um formulário web que recebe uma lista de elementos e cria um conto infantil.
 
 
 ## Tecnologias Utilizadas
