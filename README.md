@@ -1,4 +1,4 @@
-# Gerador de historias
+# Gerador de historias com IA
 
 
 ## Descrição
