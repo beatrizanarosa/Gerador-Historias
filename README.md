@@ -14,6 +14,8 @@ Objetivo: criar um formulário web que recebe uma lista de elementos e cria um c
 - GitHub: Plataforma online para hospedar o repositório do projeto e facilitar a colaboração.
 - Flask: Framework web em Python para o desenvolvimento do lado do servidor.
 - HTML e CSS (Bootstrap): Linguagens de marcação e estilização para criar o front-end do aplicativo.
+- Python: Linguagem usada no lado do servidor para integração com a IA e processamento dos dados enviados pelo cliente.
+- Fetch API: Usada no JavaScript para enviar requisições HTTP ao servidor Flask para gerar histórias.
 
 
 ## Instruções de Configuração
