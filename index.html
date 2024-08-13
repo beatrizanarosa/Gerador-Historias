@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias infantis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat&family=Quicksand:wght@300..700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Contos infantis</h1>
+        <div class="formulario">
+            <h3>Informe os elementos presentes na historia!</h3>
+            <H4>exemplo: lugar, personagens, tempo etc :)</H4>
+            <div id="elements">
+                <div class="element-row">
+                    <input type="text" class="element element-input" placeholder="Informe um elemento da sua história...">
+                    <button class="btn-danger" onclick="removeElement(this)" disabled>Excluir</button>
+                </div>
+                <div class="element-row">
+                    <input type="text" class="element element-input" placeholder="Informe um elemento da sua história...">
+                    <button class="btn-danger" onclick="removeElement(this)" disabled>Excluir</button>
+                </div>
+                <div class="element-row">
+                    <input type="text" class="element element-input" placeholder="Informe um elemento da sua história...">
+                    <button class="btn-danger" onclick="removeElement(this)" disabled>Excluir</button>
+                </div>                
+            </div>
+            <button class="btn-primary" onclick="addElement()">Adicionar Elemento</button>
+            <button class="btn-success" onclick="submitForm()">Gerar Historia</button>
+        </div>
+        <div id="response" class="response"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
