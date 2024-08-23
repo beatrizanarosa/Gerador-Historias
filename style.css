@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: #b21111;
+    
+}
+button {
+    padding: 13px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 15px;
+    border: none;
+    color: #1c1c1c;
+}
+header {
+    height: 400px;
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.189); /* Preto com 50% de opacidade */
+    z-index: 1; /* Faz a sobreposição ficar acima do fundo */
+}
+
+header * {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo dentro do header fique acima da sobreposição */
+}
+header h1{
+    text-shadow: 1px 1px 1px #000000;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 7rem;
+    color: rgb(255, 255, 255);
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+.container {
+    padding: 20px;
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo fique por cima da camada preta */
+    margin: auto;
+    text-align: center;
+}
+.introducao{
+    border-radius: 17px;
+    margin: 20px auto;
+    width: 70%;
+    border-style: none;
+    background-color: #f9efff;
+    padding: 50px;
+}
+.introducao h3{
+    color: #303030;
+    font-size: 17px;
+}
+.formulario { 
+    border-radius: 17px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #f9efff;
+}
+.formulario h3{
+    color: #303030;
+    font-size: 23px;
+
+}
+.formulario h4{
+    color: #585858;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.response {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo fique por cima da camada preta */
+    margin: 10px auto;
+    padding: 50px;
+    border-radius:17px;
+    text-align: left;
+    width: 60%;
+    background-color: #f9efff;
+}
+.response h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+.response h2{
+    text-align: center;
+    font-size: 20px;
+}
+.element-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+.element-input {
+    height: 30px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.btn-danger{
+    font-weight: 600;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    font-size: 15px;
+}
+.btn-success{
+    font-weight: 600;
+    background-color: rgb(161, 72, 239);
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    font-size: 15px;
+}
+footer{
+    margin-top: 90px;
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo fique por cima da camada preta */
+    background-color: #f9efff;
+    color: rgb(102, 102, 102);
+}
+
