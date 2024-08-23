@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app) 
 
 
-gemini.configure(api_key="AIzaSyCo4yy6nQT_ceYE1H-BTBn0I7xbGH55c9I")
+gemini.configure(api_key="")
 model = gemini.GenerativeModel('gemini-1.5-flash')  # Inicializa o modelo generativo
 
 @app.route('/historia', methods=['POST'])
